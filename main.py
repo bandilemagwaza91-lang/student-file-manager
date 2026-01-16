@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 
-print("Welcome to the mini system ")
 userName = []
 userAge =[]
 
@@ -94,4 +93,3 @@ tk.Button(root, text="Exit", width=25, command=root.destroy).pack(pady=5)
 
 Load_from_file()  # load automatically at startup
 root.mainloop()
-
